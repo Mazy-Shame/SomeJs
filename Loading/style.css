@@ -1,0 +1,74 @@
+
+#container {
+	position: absolute;
+	width: 50%;
+	height: 75%;
+	margin: auto;
+}
+
+
+#animateblocks {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin: auto;
+	width:  300px; 
+	height: 200px; 
+	background-color: #ffffff; 
+	border: 2px solid #D4D4D4; 
+	border-radius: 10px; 
+	box-shadow: 0 0 15px #A9A9A9; 
+}
+
+
+.block {
+	border: 2px solid magenta;
+	border-radius: 30px;
+	width: 30px;
+	height: 40px;
+	float: left;
+	display: block;
+	position: absolute;
+	background-color: green;
+}
+
+
+#block1 {
+	top: 10px;
+	left: 70px; 
+}
+
+#block2 {
+	top: 10px;
+	left: 130px;
+}
+
+#block3 {
+	top: 10px;
+	left: 190px;
+}
+
+#block4 {
+	position: absolute;
+	top: 60px;
+	left: 70px; 
+}
+
+#block5 {
+	position: absolute;
+	top: 60px;
+	left: 130px;
+}
+
+#block6 {
+	position: absolute;
+	top: 60px;
+	left: 190px;
+}
+
+#text {
+	display: block;
+	position: absolute;
+	top: 120px;
+	left: 110px;
+}

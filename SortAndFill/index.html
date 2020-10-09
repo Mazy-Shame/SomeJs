@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="C:\Users\vlukashin\Desktop\Новая папка\сайт и лаба\javascripts\js\test.js"></script>
+	<title>МОЯ ЛЮБИМАЯ ТАБЛИЧОЧКА</title>
+	<meta charset="UTF-8">
+
+</head>
+<body background="back.jpg">
+<table id="12" class="where" cellspacing="5" cellpadding="4" width="15px" border="10px" style="border-color: blue;background-color: silver; position: bottom;">
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+<progress style="width: 200px; height: 50px; display: block; " id="elem"></progress>
+
+  <script>
+    elem.onclick = function() {
+      animate({
+        duration: 1000,
+        timing: function(timeFraction) {
+          return timeFraction;
+        },
+        draw: function(progress) {
+          elem.style.width = progress * 100 + '%';
+        }
+      });
+    };
+  </script>
+
+<button id="elem1" onclick="plus()" style="width: 170px;height: 180px;color: blue; border-radius: 50px; background-image: url(icon.png); text-orientation: 10px; font: normal small-caps 120px/14px fantasy; ">Заполнить</button>
+
+
+   <div style="position: absolute; width: 220px; height: 197px;" >
+     <button id="elem2" onclick="del()" style="width: 220px;height: 197px;color: blue; border-radius: 50px; background-image: url(tenor.gif); text-orientation: 10px; font: normal small-caps 60px/40px fantasy; position: bottom; padding: 100px;top: 92px; bottom: 99px; ">удалить данные</button>
+   </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.s > p {
+	color: magenta;
+	text-decoration-line: black;
+	background-color: magenta;
+	text-decoration-color: red;
+	border-radius: 12px;
+}
+
+#container {
+	width: 200px;
+	height: 200px;
+	background: green;
+	position: relative;
+}
+
+#box {
+	width: 50px;
+	height: 50px;
+	background: red;
+	position: absolute;
+}

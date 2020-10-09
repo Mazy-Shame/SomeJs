@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js\test2.js"></script>
+	
+	<title>Это таблица сортировки</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		TABLE {
+    width: 300px; 
+    border-collapse: separate; 
+   }
+   TD, TH {
+    padding: 3px; 
+    border: 1px solid black;   }
+   TH {
+    background: #b0e0e6; 
+   }
+
+	</style>
+</head>
+<body onload="del()">
+		<div >
+    		<button id="filter"  onclick="sort();" style=" position: absolute; margin-left: 500px; display: none;background-image: url(animate.gif); color: white;">Фильтровать</button>
+    	</div> 
+    	<button id="new" onclick="plus2();" style="position: absolute; margin-left: 200px; display: none; ">Очистить Фильтр</button>
+    	<button id="hidden" onclick="ShowButton1();ShowButton2();plus();war();"  style="margin: auto; width: 100px; height: 80px;">Скрыть/показать фильтры</button>
+   
+    
+<table id="sort" class="tablesorter"  style = "width: 300px; border: 2px solid blue; background-color: silver;margin: left;">
+  <tr>
+  	<th>Номер
+	</th>
+    <th>
+	Имя</th>
+    <th>
+	Фаммилия</th>
+    <th>
+	Да/нет</th>
+    <th>
+	Должность</th>
+  </tbody>   
+</table>
+
+<textarea id="text" style='position: absolute;	width:500px; height:100px;'>Здесь выводятся действия</textarea>
+
+
+</body>
+</html>
